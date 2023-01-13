@@ -1,0 +1,209 @@
+body{
+    background-color: cornsilk;
+    margin: 0;
+}
+
+
+.welcome{
+    background-color: lightblue;
+
+    font-size: 50px;
+    font-style: italic;
+    font-family: "Caveat";
+    text-shadow: 2px 2px lightseagreen;
+
+    display: flex;
+    flex-wrap: wrap;
+    
+    justify-content: center;
+    align-items: center;
+}
+
+
+@keyframes changewidth {
+    from {
+      transform: scaleX(0.5);
+    }
+  
+    to {
+      transform: scaleX(1.0);
+    }
+  }
+  
+.welcome-text {
+    animation-duration: 2.3s;
+    animation-name: changewidth;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+  }
+
+
+
+
+.container-social-medias{
+    height: 300px;
+
+    background-image: url(https://img.freepik.com/free-vector/hand-painted-watercolor-pastel-sky-background_23-2148902771.jpg?w=2000);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+    margin-top: 3px;
+    margin-bottom: 3px;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.icons{
+    width: 130px;   
+}
+
+@keyframes rotate{
+    from{
+        -webkit-transform: rotate(0deg);
+    }
+    to{
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+.icons:hover{
+    animation: rotate 1.2s ease-in-out infinite;
+}
+
+
+.container-div{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+
+    background-image: url(https://visme.co/blog/wp-content/uploads/2017/07/50-Beautiful-and-Minimalist-Presentation-Backgrounds-036.jpg);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+    
+}
+
+.left-item{
+    width: auto;  
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.middle-item{
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.right-item{
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.paragraph-itens{
+    font-size: 35px;
+}
+
+
+.about-me{
+    background-image: url(https://img.freepik.com/free-vector/blue-pink-halftone-background_53876-99004.jpg?w=2000);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    
+    margin-top: 3px;
+    margin-bottom: 3px;
+
+    width: 100%;
+}
+
+
+.description-about-me{
+    color: black;
+    text-shadow: 1px 1px #5acbeb;
+
+    font-size: 50px;
+    font-family: "Moon Dance";
+    
+    text-align: center;
+    align-items: center;
+
+    padding: 5px;
+}
+
+.working-exp-container{
+    width: 100%;
+
+    margin-bottom: 3px ;
+
+    background-image: linear-gradient(#5acbeb ,lightseagreen);
+
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+}
+
+.working-exp-title{
+    text-align: center;
+    font-size: 100px;
+    font-family: "Amatic SC";
+    margin-top: 5%;
+    color: rgb(240,255,255);
+}
+
+
+h3{
+    color: rgb(240,255,255);
+    font-family: "Amatic SC";
+    font-style: bold;
+    font-size: 70px;
+    padding-left: 2%;
+}
+
+
+.workingp{
+    font-family: "Kalam";
+    font-size: 35px;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.courses{ 
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+
+    background-color: red;
+
+
+}
+
+caption{
+    text-align: center;
+    font-size: 100px;
+    color: rgb(240,255,255);
+    font-family: "Amatic SC";
+    font-weight: bold;
+
+    margin: 15% auto 5% auto;
+
+}
+
+tr, th, td{
+    padding: 15px;
+    border: 1px solid;
+}
